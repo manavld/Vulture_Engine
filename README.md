@@ -4,14 +4,17 @@ Vulture Engine is a 3D Game Engine developed for a university project in CITM UP
 
 ## Authors
 
-* José Rodríguez: [https://github.com/joserm45](https://github.com/joserm45)
+* **José Rodríguez**: [https://github.com/joserm45](https://github.com/joserm45)
 
 <img src="JoseRodriguez.jpeg" alt="JoseRodriguez" width="300" height="390">
 
-* Manav Lakhwani: [https://github.com/manavld](https://github.com/manavld)
+Contribution: Quatree, inspector, camera culling, mouse picking, engine state, console, shaders.
+
+* **Manav Lakhwani**: [https://github.com/manavld](https://github.com/manavld)
 
 <img src="ManavLakhwani.gif" alt="Manav Lakhwani" width="200" height="250">
 
+Contribution: Mesh importer, materials/texture, gameobject components, hierarchy, bbox, website, configuration window. 
 
 ## Instructions
 
@@ -65,6 +68,10 @@ On the top of the screen there is an engine state controller with its commands "
 
 We use AABB to encapsulate meshes and discarded using frustum culling in editor mode and mouse picking enabled to select game object on scene.
 
+## Shaders Pipeline
+
+Shaders Pipeline is implemented in the code, when a game object is selected, open the material component in the inspector and click the checkbox of the default shader to apply it. This is still not working exactly how it is suposed to be.
+
 ## Configuration
 
 There is a configuration window where the user will be able to see the application information including the fps is running at, main information about the input and harware and will be able to edit the window characteristics of the application.
@@ -98,6 +105,10 @@ A console window will be appear in the bottom of the screen indicating the user 
 * Assimp 4.1.0: [http://www.assimp.org/index.php/downloads](http://www.assimp.org/index.php/downloads)
 * DevIL 1.8.0: [http://openil.sourceforge.net/download.php](http://openil.sourceforge.net/download.php)
 * Par Shapes: [https://github.com/prideout/par](https://github.com/prideout/par)
+
+## Game Engine Video
+
+
 
 ## License
 
