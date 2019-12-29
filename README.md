@@ -6,7 +6,7 @@ Vulture Engine is a 3D Game Engine developed for a university project in CITM UP
 
 * José Rodríguez: [https://github.com/joserm45](https://github.com/joserm45)
 
-<img src="JoseRodriguez." alt="JoseRodriguez" width="200" height="250">
+<img src="JoseRodriguez.jpeg" alt="JoseRodriguez" width="300" height="390">
 
 * Manav Lakhwani: [https://github.com/manavld](https://github.com/manavld)
 
