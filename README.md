@@ -24,36 +24,51 @@ Download the .zip in the last release in [https://github.com/joserm45/VultureEng
 
 ## Hierarchy
 
+The hierarchy contains all **game objects** in the scene  with its corresponding parents and children. The scene is already named and a main camera is automatically created, when game objects are created or dragged, it will be placed as a child of the existing scene as it will show on the game engine scene. All game objects can be editted, if a game object with childs is editted, its childs will perfom the same way.
+
 <img src="Hierarchy.jpg" alt="Hierarchy">
 
 ## Inspector
 
+In the inspector at the right of the screen there will be **information** about the game object selected in the hierarchy.
+All game objects will contain its name and a component transform to be able to move its position, rotation and scale.
+If a game object is has a mesh, it will show a component mesh with information about the file which it corresponds to (his path).
+If the game object contains a material, it will show a component material with infomation about it (its path and size) and some options to edit it.
+
 <img src="Inspector.jpg" alt="Inspector">
+
+If the game object corresponds to a camera, the component camera will appear and the main view of the camera can be editted.
+
+<img src="Camera.jpg" alt="Camera">
 
 ## Optimization
 
-Quadtree: With Static Game Object check box
-Camera Culling: hide Game Objects that are not in Main Camera
+Quadtree: With Static Game Object check box.
+Camera Culling: hide Game Objects that are not in Main Camera.
 
 ## Mouse Pickying
 
-With mouse we can select and did focus to Game Object on the scene
+With the mouse we can select and put the focus to Game Object on the scene as well as in the hierarchy.
 
 ## Engine State
 
-We can Start/Pause/Stop Engine and be the main camera
+On the top of the screen there is an engine state controller with its commands "Start/Pause/Stop" that will show the scene from the main camera perspective when played.
 
 <img src="State.jpg" alt="State">
 
 ## Bounding Box
 
-We use AABB to encapsulate meshes and discarded using frustum culling in editor mode and mouse picking enabled to select game object on scene
+We use AABB to encapsulate meshes and discarded using frustum culling in editor mode and mouse picking enabled to select game object on scene.
 
 ## Configuration
+
+There is a configuration window where the user will be able to see the application information including the fps is running at, main information about the input and harware and will be able to edit the window characteristics of the application.
 
 <img src="Configuration.jpg" alt="Configuration">
 
 ## Console
+
+A console window will be appear in the bottom of the screen indicating the user what the app is doing and showing error information if needed.
 
 <img src="Console.jpg" alt="Console">
 
